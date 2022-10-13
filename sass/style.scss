@@ -1,0 +1,35 @@
+@import 'libs/normalize.scss';
+@import 'base/variables';
+@import 'blocks/section';
+@import 'blocks/hero';
+@import 'blocks/header';
+@import 'blocks/menu';
+@import 'blocks/button';
+
+
+a {
+    color: inherit;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul > li {
+    list-style: none;
+}
+

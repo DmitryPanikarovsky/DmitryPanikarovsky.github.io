@@ -1,0 +1,39 @@
+.menu {
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+    &__item {
+        margin-left: 30px;
+        position: relative;
+        &:first-child {
+            &::before {
+                display: none;
+            }
+        }
+        &:hover {
+            .menu__link {
+                color: $red;
+            }
+        }
+        &::before {
+            position: absolute;
+            left: -17px;
+            bottom: 7px;
+            content: '';
+            display: block;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background-color: #fff;
+        }
+    }
+    &__link {
+        transition: .3s all;
+        font-family: Ubuntu;
+        font-size: 13px;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,25 @@
+.section {
+    height: 100vh;
+    min-height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    &_align_top {
+        justify-content: flex-start;
+    }
+    &__title {
+        font-family: Gagalin;
+        font-size: 72px;
+        line-height: 85px;
+        font-weight: 400;
+        color: $yellow;
+        margin-bottom: 40px;
+    }
+    .scroll-down {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
