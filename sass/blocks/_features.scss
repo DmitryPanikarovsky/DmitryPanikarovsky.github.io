@@ -1,0 +1,14 @@
+.features {
+    background: url('../img/feature/bg.jpg') center center / cover no-repeat;
+    &__list {
+        display: flex;
+        justify-content: center;
+        gap: 0 40px;
+    }
+    &__item {
+        width: 280px;
+    }
+    .section__title {
+        color: #2f3234;
+    }
+}

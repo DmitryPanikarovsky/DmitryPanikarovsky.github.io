@@ -15,6 +15,9 @@
         font-weight: 400;
         color: $yellow;
         margin-bottom: 40px;
+        &_center {
+            text-align: center;
+        }
     }
     .scroll-down {
         position: absolute;

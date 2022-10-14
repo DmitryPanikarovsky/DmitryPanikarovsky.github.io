@@ -1,0 +1,7 @@
+.reviews {
+    background: #000;
+    &__list {
+        display: grid;
+        grid-template: repeat(2, 50vh) / repeat(4, 25vw);
+    }
+}

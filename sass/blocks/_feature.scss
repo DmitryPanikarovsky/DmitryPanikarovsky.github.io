@@ -1,0 +1,25 @@
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px 0;
+    &__title {
+        text-align: center;
+        font-family: 'lifehack';
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 500;
+        letter-spacing: -0.025em;
+        color: #2f3234;
+    }
+    &__text {
+        text-align: center;
+        margin-top: 18px;
+        opacity: 0.8;
+        font-family: 'ubuntu';
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 300;
+        color: #2f3234;
+    }
+}

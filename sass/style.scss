@@ -5,6 +5,10 @@
 @import 'blocks/header';
 @import 'blocks/menu';
 @import 'blocks/button';
+@import 'blocks/features';
+@import 'blocks/feature';
+@import 'blocks/reviews';
+@import 'blocks/review';
 
 
 a {
@@ -25,7 +29,13 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
     margin: 0;
 }
 

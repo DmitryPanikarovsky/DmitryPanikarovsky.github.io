@@ -8,7 +8,9 @@
     text-transform: uppercase;
     text-decoration: none;
     margin-left: 15px;
+    transition: .3s all;
     &:hover {
         background-color: #c1401e;
     }
+    
 }
