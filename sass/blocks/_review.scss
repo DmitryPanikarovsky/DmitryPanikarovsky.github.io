@@ -3,6 +3,7 @@
     filter: grayscale(100%);
     cursor: pointer;
     &:hover {
+        filter: grayscale(0%);
         .review__hover {
             opacity: 1;
             transform: scale(1);
@@ -54,5 +55,4 @@
             background-color: #8a8685;
         }
     }
-
 }

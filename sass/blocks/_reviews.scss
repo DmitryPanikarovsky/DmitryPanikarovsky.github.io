@@ -1,7 +1,11 @@
 .reviews {
     background: #000;
+    height: 100vh;
+    min-height: 650px;
     &__list {
+        width: 100%;
+        height: 100%;
         display: grid;
-        grid-template: repeat(2, 50vh) / repeat(4, 25vw);
+        grid-template: repeat(2, 50%) / repeat(4, 25%);
     }
 }

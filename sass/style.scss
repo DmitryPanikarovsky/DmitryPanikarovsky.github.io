@@ -9,8 +9,12 @@
 @import 'blocks/feature';
 @import 'blocks/reviews';
 @import 'blocks/review';
+@import 'blocks/section-form';
+@import 'blocks/order';
 
-
+* {
+    box-sizing: border-box;
+}
 a {
     color: inherit;
 }
